@@ -7,13 +7,13 @@ Console.WriteLine("Modyfikacja 3");
 
 static double GetAverage(int[] numbers)
 {
-    int sumTpm = 0;
+    int sumOfAvg = 0;
     foreach (var number in numbers)
     {
-        sumTpm += number;
+        sumOfAvg += number;
     }
 
-    return (double) sumTpm / numbers.Length;
+    return (double) sumOfAvg / numbers.Length;
 }
 
 int[] numbers = {1, 2, 3, 4};
